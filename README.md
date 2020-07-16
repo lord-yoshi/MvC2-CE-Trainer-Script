@@ -1,6 +1,8 @@
 # MvC2-CE-Trainer-Script
 A .ct file used with Cheat Engine 7.1 and Demul v0.7 111117 to add new functionality to Marvel vs Capcom 2 DC
 
+Download the .ct file here: <a href="https://raw.githubusercontent.com/lord-yoshi/MvC2-CE-Trainer-Script/master/MvC2%20Trainer%20Script.CT">Right Click and Save Link As...</a>
+
 -- Marvel vs Capcom 2 REAL TIME Hitbox Viewer Overlay Lua Script
 
 -- By Lord_Yoshi
