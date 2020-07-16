@@ -49,14 +49,14 @@
         <CheatEntry>
           <ID>285</ID>
           <Description>"demul.exe"</Description>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00400000"/>
           <GroupHeader>1</GroupHeader>
           <Address>demul.exe</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>287</ID>
           <Description>"padDemul.dll"</Description>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="0CF90000"/>
           <GroupHeader>1</GroupHeader>
           <Address>padDemul.dll</Address>
         </CheatEntry>
@@ -126,7 +126,7 @@
         <CheatEntry>
           <ID>297</ID>
           <Description>"DINPUT8.dll"</Description>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="61640000"/>
           <GroupHeader>1</GroupHeader>
           <Address>DINPUT8.dll</Address>
         </CheatEntry>
@@ -142,6 +142,7 @@
         <CheatEntry>
           <ID>126</ID>
           <Description>"Emulation Pause"</Description>
+          <LastState Value="0" RealAddress="0119B536"/>
           <VariableType>Byte</VariableType>
           <Address>demul.exe+D9B536</Address>
         </CheatEntry>
@@ -164,12 +165,14 @@
             <CheatEntry>
               <ID>278</ID>
               <Description>"Scene Frame Counter"</Description>
+              <LastState Value="129590" RealAddress="2C1F9D80"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C1F9D80</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88</ID>
               <Description>"Total Frame Counter"</Description>
+              <LastState Value="147346" RealAddress="2C3496B0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C3496B0</Address>
             </CheatEntry>
@@ -185,12 +188,14 @@
             <CheatEntry>
               <ID>86</ID>
               <Description>"Frame Skip Reset Target"</Description>
+              <LastState Value="4" RealAddress="2C289620"/>
               <VariableType>Byte</VariableType>
               <Address>2C289620</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>89</ID>
               <Description>"Frame Skip Timer"</Description>
+              <LastState Value="1" RealAddress="2C289621"/>
               <VariableType>Byte</VariableType>
               <Address>2C289621</Address>
             </CheatEntry>
@@ -206,24 +211,28 @@
             <CheatEntry>
               <ID>272</ID>
               <Description>"Hitbox Object List P1"</Description>
+              <LastState Value="2351334208" RealAddress="2C287AEC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C287AEC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>279</ID>
               <Description>"Hitbox Object List P2"</Description>
+              <LastState Value="2351335652" RealAddress="2C287C64"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C287C64</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>276</ID>
               <Description>"Hitbox Object Count P1"</Description>
+              <LastState Value="1" RealAddress="2C287DDE"/>
               <VariableType>Byte</VariableType>
               <Address>2C287DDE</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>277</ID>
               <Description>"Hitbox Object Count P2"</Description>
+              <LastState Value="1" RealAddress="2C287DDF"/>
               <VariableType>Byte</VariableType>
               <Address>2C287DDF</Address>
             </CheatEntry>
@@ -239,24 +248,28 @@
             <CheatEntry>
               <ID>253</ID>
               <Description>"Hyper Gauge Bar P1"</Description>
+              <LastState Value="0" RealAddress="2C289646"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C289646</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>259</ID>
               <Description>"Hyper Gauge Bar P2"</Description>
+              <LastState Value="0" RealAddress="2C289648"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C289648</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>260</ID>
               <Description>"Hyper Gauge Count P1"</Description>
+              <LastState Value="5" RealAddress="2C28964A"/>
               <VariableType>Byte</VariableType>
               <Address>2C28964A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>261</ID>
               <Description>"Hyper Gauge Count P2"</Description>
+              <LastState Value="5" RealAddress="2C28964B"/>
               <VariableType>Byte</VariableType>
               <Address>2C28964B</Address>
             </CheatEntry>
@@ -272,48 +285,56 @@
             <CheatEntry>
               <ID>274</ID>
               <Description>"Contoroller/Pause Menu"</Description>
+              <LastState Value="0" RealAddress="2C212CA2"/>
               <VariableType>Byte</VariableType>
               <Address>2C212CA2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>275</ID>
               <Description>"Game Active"</Description>
+              <LastState Value="1" RealAddress="2C2433C8"/>
               <VariableType>Byte</VariableType>
               <Address>2C2433C8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>266</ID>
               <Description>"First Attack Indicator"</Description>
+              <LastState Value="128" RealAddress="2C2895F2"/>
               <VariableType>Byte</VariableType>
               <Address>2C2895F2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>262</ID>
               <Description>"Match Start Frame Counter"</Description>
+              <LastState Value="63755" RealAddress="2C289600"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C289600</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>254</ID>
               <Description>"Attacking Hitboxes Created Counter P1"</Description>
+              <LastState Value="752" RealAddress="2C28966C"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C28966C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>256</ID>
               <Description>"Attacking Hitboxes Created Counter P2"</Description>
+              <LastState Value="0" RealAddress="2C28966E"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C28966E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>257</ID>
               <Description>"Successful Hits Counter P1"</Description>
+              <LastState Value="213" RealAddress="2C289670"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C289670</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>258</ID>
               <Description>"Successful Hits Counter P2"</Description>
+              <LastState Value="0" RealAddress="2C289672"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C289672</Address>
             </CheatEntry>
@@ -329,96 +350,112 @@
             <CheatEntry>
               <ID>303</ID>
               <Description>"Input Flags A P1"</Description>
+              <LastState Value="0" RealAddress="2C2681DC"/>
               <VariableType>Byte</VariableType>
               <Address>2C2681DC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>304</ID>
               <Description>"Input Flags B P1"</Description>
+              <LastState Value="0" RealAddress="2C2681DD"/>
               <VariableType>Byte</VariableType>
               <Address>2C2681DD</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>782</ID>
               <Description>"X Button Map P1"</Description>
+              <LastState Value="0" RealAddress="2C212C1C"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C1C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>783</ID>
               <Description>"Y Button Map P1"</Description>
+              <LastState Value="1" RealAddress="2C212C1E"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C1E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>784</ID>
               <Description>"A Button Map P1"</Description>
+              <LastState Value="2" RealAddress="2C212C20"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C20</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>785</ID>
               <Description>"B Button Map P1"</Description>
+              <LastState Value="3" RealAddress="2C212C22"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C22</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>786</ID>
               <Description>"L Button Map P1"</Description>
+              <LastState Value="4" RealAddress="2C212C24"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C24</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>787</ID>
               <Description>"R Button Map P1"</Description>
+              <LastState Value="5" RealAddress="2C212C26"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C26</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>305</ID>
               <Description>"Input Flags A P2"</Description>
+              <LastState Value="0" RealAddress="2C2681F0"/>
               <VariableType>Byte</VariableType>
               <Address>2C2681F0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>306</ID>
               <Description>"Input Flags B P2"</Description>
+              <LastState Value="0" RealAddress="2C2681F1"/>
               <VariableType>Byte</VariableType>
               <Address>2C2681F1</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>788</ID>
               <Description>"X Button Map P2"</Description>
+              <LastState Value="0" RealAddress="2C212C28"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C28</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>789</ID>
               <Description>"Y Button Map P2"</Description>
+              <LastState Value="1" RealAddress="2C212C2A"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C2A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>790</ID>
               <Description>"A Button Map P2"</Description>
+              <LastState Value="2" RealAddress="2C212C2C"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C2C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>791</ID>
               <Description>"B Button Map P2"</Description>
+              <LastState Value="3" RealAddress="2C212C2E"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C2E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>792</ID>
               <Description>"L Button Map P2"</Description>
+              <LastState Value="4" RealAddress="2C212C30"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C30</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>793</ID>
               <Description>"R Button Map P2"</Description>
+              <LastState Value="5" RealAddress="2C212C32"/>
               <VariableType>Byte</VariableType>
               <Address>2C212C32</Address>
             </CheatEntry>
@@ -434,36 +471,42 @@
             <CheatEntry>
               <ID>87</ID>
               <Description>"Screen Arena Position X"</Description>
+              <LastState Value="959.9997559" RealAddress="2C1F9CD8"/>
               <VariableType>Float</VariableType>
               <Address>2C1F9CD8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>273</ID>
               <Description>"Screen Arena Position Y"</Description>
+              <LastState Value="95.00001526" RealAddress="2C1F9CDC"/>
               <VariableType>Float</VariableType>
               <Address>2C1F9CDC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>271</ID>
               <Description>"Final Level Shift Trigger"</Description>
+              <LastState Value="0" RealAddress="2C26A8C8"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A8C8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>263</ID>
               <Description>"Game Timer"</Description>
+              <LastState Value="99" RealAddress="2C289630"/>
               <VariableType>Byte</VariableType>
               <Address>2C289630</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>264</ID>
               <Description>"Game Timer Timer"</Description>
+              <LastState Value="33" RealAddress="2C289631"/>
               <VariableType>Byte</VariableType>
               <Address>2C289631</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>265</ID>
               <Description>"Stage ID"</Description>
+              <LastState Value="11" RealAddress="2C289638"/>
               <VariableType>Byte</VariableType>
               <Address>2C289638</Address>
             </CheatEntry>
@@ -488,48 +531,56 @@
             <CheatEntry>
               <ID>132</ID>
               <Description>"Receiving Damage Animation State"</Description>
+              <LastState Value="0" RealAddress="2C268345"/>
               <VariableType>Byte</VariableType>
               <Address>2C268345</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>133</ID>
               <Description>"Special Move Animation State"</Description>
+              <LastState Value="0" RealAddress="2C268346"/>
               <VariableType>Byte</VariableType>
               <Address>2C268346</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>149</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="1" RealAddress="2C268450"/>
               <VariableType>Byte</VariableType>
               <Address>2C268450</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>153</ID>
               <Description>"Animation Cycle Frame Timer"</Description>
+              <LastState Value="3" RealAddress="2C268482"/>
               <VariableType>Byte</VariableType>
               <Address>2C268482</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>154</ID>
               <Description>"Sprite ID"</Description>
+              <LastState Value="49" RealAddress="2C268484"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268484</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>249</ID>
               <Description>"Animation Pause Timer"</Description>
+              <LastState Value="0" RealAddress="2C2684E0"/>
               <VariableType>Byte</VariableType>
               <Address>2C2684E0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>180</ID>
               <Description>"Animation State"</Description>
+              <LastState Value="0" RealAddress="2C268510"/>
               <VariableType>Byte</VariableType>
               <Address>2C268510</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>181</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="1" RealAddress="2C268512"/>
               <VariableType>Byte</VariableType>
               <Address>2C268512</Address>
             </CheatEntry>
@@ -545,72 +596,84 @@
             <CheatEntry>
               <ID>134</ID>
               <Description>"Normal Attack Held Direction"</Description>
+              <LastState Value="0" RealAddress="2C268362"/>
               <VariableType>Byte</VariableType>
               <Address>2C268362</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>182</ID>
               <Description>"Jumping Special Move Limiter"</Description>
+              <LastState Value="1" RealAddress="2C268514"/>
               <VariableType>Byte</VariableType>
               <Address>2C268514</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>183</ID>
               <Description>"Air Dash Count"</Description>
+              <LastState Value="0" RealAddress="2C268515"/>
               <VariableType>Byte</VariableType>
               <Address>2C268515</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>184</ID>
               <Description>"Normal Jumping Actions Counter"</Description>
+              <LastState Value="17" RealAddress="2C268516"/>
               <VariableType>Byte</VariableType>
               <Address>2C268516</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>319</ID>
               <Description>"Multiple Jumps Counter"</Description>
+              <LastState Value="0" RealAddress="2C268519"/>
               <VariableType>Byte</VariableType>
               <Address>2C268519</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>188</ID>
               <Description>"Normal Move Light/Medium/Heavy"</Description>
+              <LastState Value="0" RealAddress="2C268528"/>
               <VariableType>Byte</VariableType>
               <Address>2C268528</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>189</ID>
               <Description>"Current Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C268529"/>
               <VariableType>Byte</VariableType>
               <Address>2C268529</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>192</ID>
               <Description>"Special Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C268532"/>
               <VariableType>Byte</VariableType>
               <Address>2C268532</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>193</ID>
               <Description>"Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C268533"/>
               <VariableType>Byte</VariableType>
               <Address>2C268533</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>252</ID>
               <Description>"Has Been Thrown Count"</Description>
+              <LastState Value="0" RealAddress="2C26857A"/>
               <VariableType>Byte</VariableType>
               <Address>2C26857A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>212</ID>
               <Description>"DHC Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C268598"/>
               <VariableType>Byte</VariableType>
               <Address>2C268598</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>241</ID>
               <Description>"Assist ID"</Description>
+              <LastState Value="1" RealAddress="2C268809"/>
               <VariableType>Byte</VariableType>
               <Address>2C268809</Address>
             </CheatEntry>
@@ -626,36 +689,42 @@
             <CheatEntry>
               <ID>320</ID>
               <Description>"Flight Timer (Sentinel)"</Description>
+              <LastState Value="3" RealAddress="2C2685E4"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2685E4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>322</ID>
               <Description>"Flight Timer (Iron Man/War Machine)"</Description>
+              <LastState Value="4" RealAddress="2C2685E8"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2685E8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>321</ID>
               <Description>"Flight Timer (Magneto)"</Description>
+              <LastState Value="0" RealAddress="2C2685EA"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2685EA</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>323</ID>
               <Description>"Flight Timer (Dhalsim)"</Description>
+              <LastState Value="0" RealAddress="2C2685EC"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2685EC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>324</ID>
               <Description>"Flight Timer (Doctor Doom/M. Bison)"</Description>
+              <LastState Value="0" RealAddress="2C2685EE"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2685EE</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>325</ID>
               <Description>"Flight Timer (Storm)"</Description>
+              <LastState Value="0" RealAddress="2C2685F4"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2685F4</Address>
             </CheatEntry>
@@ -671,36 +740,42 @@
             <CheatEntry>
               <ID>187</ID>
               <Description>"Dizzy Stun Counter"</Description>
+              <LastState Value="80" RealAddress="2C268521"/>
               <VariableType>Byte</VariableType>
               <Address>2C268521</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>248</ID>
               <Description>"Dizzy Stun Reset Timer"</Description>
+              <LastState Value="0" RealAddress="2C268522"/>
               <VariableType>Byte</VariableType>
               <Address>2C268522</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>190</ID>
               <Description>"Throw Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C26852B"/>
               <VariableType>Byte</VariableType>
               <Address>2C26852B</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>191</ID>
               <Description>"Attack Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C26852D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26852D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>225</ID>
               <Description>"Character Health"</Description>
+              <LastState Value="144" RealAddress="2C268760"/>
               <VariableType>Byte</VariableType>
               <Address>2C268760</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>226</ID>
               <Description>"Character Red Health"</Description>
+              <LastState Value="144" RealAddress="2C268764"/>
               <VariableType>Byte</VariableType>
               <Address>2C268764</Address>
             </CheatEntry>
@@ -716,42 +791,49 @@
             <CheatEntry>
               <ID>130</ID>
               <Description>"Is Active"</Description>
+              <LastState Value="1" RealAddress="2C268340"/>
               <VariableType>Byte</VariableType>
               <Address>2C268340</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>131</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="23" RealAddress="2C268341"/>
               <VariableType>Byte</VariableType>
               <Address>2C268341</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>211</ID>
               <Description>"Flying Screen Focus"</Description>
+              <LastState Value="0" RealAddress="2C268575"/>
               <VariableType>Byte</VariableType>
               <Address>2C268575</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>221</ID>
               <Description>"Distance From Enemy"</Description>
+              <LastState Value="319.1672974" RealAddress="2C2685D8"/>
               <VariableType>Float</VariableType>
               <Address>2C2685D8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>243</ID>
               <Description>"CPU Control"</Description>
+              <LastState Value="0" RealAddress="2C268865"/>
               <VariableType>Byte</VariableType>
               <Address>2C268865</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>244</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="23" RealAddress="2C26886C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26886C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>245</ID>
               <Description>"Palette ID"</Description>
+              <LastState Value="0" RealAddress="2C26886D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26886D</Address>
             </CheatEntry>
@@ -767,12 +849,14 @@
             <CheatEntry>
               <ID>250</ID>
               <Description>"Camera Bounds Break Timer"</Description>
+              <LastState Value="0" RealAddress="2C268534"/>
               <VariableType>Byte</VariableType>
               <Address>2C268534</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>219</ID>
               <Description>"Snapout Character Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C2685E0"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2685E0</Address>
             </CheatEntry>
@@ -788,42 +872,49 @@
             <CheatEntry>
               <ID>198</ID>
               <Description>"Speed Up"</Description>
+              <LastState Value="0" RealAddress="2C268540"/>
               <VariableType>Byte</VariableType>
               <Address>2C268540</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>199</ID>
               <Description>"Flight"</Description>
+              <LastState Value="0" RealAddress="2C268541"/>
               <VariableType>Byte</VariableType>
               <Address>2C268541</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>200</ID>
               <Description>"Hyper Armor"</Description>
+              <LastState Value="0" RealAddress="2C268542"/>
               <VariableType>Byte</VariableType>
               <Address>2C268542</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>201</ID>
               <Description>"Idle Hover Animation"</Description>
+              <LastState Value="0" RealAddress="2C268543"/>
               <VariableType>Byte</VariableType>
               <Address>2C268543</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>203</ID>
               <Description>"Damage Modifier"</Description>
+              <LastState Value="0" RealAddress="2C268545"/>
               <VariableType>Byte</VariableType>
               <Address>2C268545</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>204</ID>
               <Description>"Defense Modifier"</Description>
+              <LastState Value="0" RealAddress="2C268546"/>
               <VariableType>Byte</VariableType>
               <Address>2C268546</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>205</ID>
               <Description>"Landing Screen Shake Effect Intensity"</Description>
+              <LastState Value="3" RealAddress="2C268547"/>
               <VariableType>Byte</VariableType>
               <Address>2C268547</Address>
             </CheatEntry>
@@ -839,24 +930,28 @@
             <CheatEntry>
               <ID>140</ID>
               <Description>"Velocity X"</Description>
+              <LastState Value="0" RealAddress="2C26839C"/>
               <VariableType>Float</VariableType>
               <Address>2C26839C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>141</ID>
               <Description>"Velocity Y"</Description>
+              <LastState Value="0" RealAddress="2C2683A0"/>
               <VariableType>Float</VariableType>
               <Address>2C2683A0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>143</ID>
               <Description>"Gravity X"</Description>
+              <LastState Value="0" RealAddress="2C2683A8"/>
               <VariableType>Float</VariableType>
               <Address>2C2683A8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>144</ID>
               <Description>"Gravity Y"</Description>
+              <LastState Value="0" RealAddress="2C2683AC"/>
               <VariableType>Float</VariableType>
               <Address>2C2683AC</Address>
             </CheatEntry>
@@ -872,24 +967,28 @@
             <CheatEntry>
               <ID>135</ID>
               <Description>"Arena Position X"</Description>
+              <LastState Value="857.4990845" RealAddress="2C268374"/>
               <VariableType>Float</VariableType>
               <Address>2C268374</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>136</ID>
               <Description>"Arena Position Y"</Description>
+              <LastState Value="0" RealAddress="2C268378"/>
               <VariableType>Float</VariableType>
               <Address>2C268378</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>145</ID>
               <Description>"Screen Position X"</Description>
+              <LastState Value="217.4994507" RealAddress="2C268420"/>
               <VariableType>Float</VariableType>
               <Address>2C268420</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>146</ID>
               <Description>"Screen Position Y"</Description>
+              <LastState Value="438.4000244" RealAddress="2C268424"/>
               <VariableType>Float</VariableType>
               <Address>2C268424</Address>
             </CheatEntry>
@@ -905,90 +1004,105 @@
             <CheatEntry>
               <ID>159</ID>
               <Description>"Sprite Pointer"</Description>
+              <LastState Value="206752100" RealAddress="2C268494"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268494</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>162</ID>
               <Description>"DatGFX1 Pointer?"</Description>
+              <LastState Value="205652032" RealAddress="2C26849C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26849C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>163</ID>
               <Description>"DatGFX2 Pointer?"</Description>
+              <LastState Value="206616768" RealAddress="2C2684A0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684A0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>164</ID>
               <Description>"DatPal Pointer?"</Description>
+              <LastState Value="206682624" RealAddress="2C2684A4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684A4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>165</ID>
               <Description>"Animations Pointer?"</Description>
+              <LastState Value="206749984" RealAddress="2C2684A8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684A8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>166</ID>
               <Description>"Hitbox Pattern Table Pointer?"</Description>
+              <LastState Value="206774272" RealAddress="2C2684AC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684AC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>167</ID>
               <Description>"Hitbox Table Pointer"</Description>
+              <LastState Value="206776128" RealAddress="2C2684B0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684B0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>168</ID>
               <Description>"Attack Data Pointer?"</Description>
+              <LastState Value="206778176" RealAddress="2C2684B4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684B4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>169</ID>
               <Description>"Projectile/Extras Pointer?"</Description>
+              <LastState Value="206684448" RealAddress="2C2684B8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684B8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>170</ID>
               <Description>"DatFPNT Pointer?"</Description>
+              <LastState Value="205651968" RealAddress="2C2684BC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684BC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>171</ID>
               <Description>"Prj Pointer?"</Description>
+              <LastState Value="206983168" RealAddress="2C2684C0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684C0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>172</ID>
               <Description>"FAC Texture Pointer?"</Description>
+              <LastState Value="206995456" RealAddress="2C2684C4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684C4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>177</ID>
               <Description>"Receiving Attack Pointer"</Description>
+              <LastState Value="0" RealAddress="2C2684FC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2684FC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>178</ID>
               <Description>"Hitbox Choice Pointer"</Description>
+              <LastState Value="206774288" RealAddress="2C268500"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268500</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>210</ID>
               <Description>"Enemy Pointer"</Description>
+              <LastState Value="2351335652" RealAddress="2C26854C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26854C</Address>
             </CheatEntry>
@@ -1004,48 +1118,56 @@
             <CheatEntry>
               <ID>137</ID>
               <Description>"Sprite Scale X"</Description>
+              <LastState Value="1" RealAddress="2C268390"/>
               <VariableType>Float</VariableType>
               <Address>2C268390</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>138</ID>
               <Description>"Sprite Scale Y"</Description>
+              <LastState Value="1" RealAddress="2C268394"/>
               <VariableType>Float</VariableType>
               <Address>2C268394</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>139</ID>
               <Description>"Sprite Scale Z"</Description>
+              <LastState Value="1" RealAddress="2C268398"/>
               <VariableType>Float</VariableType>
               <Address>2C268398</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>147</ID>
               <Description>"Hitbox Scaling X"</Description>
+              <LastState Value="1.666666985" RealAddress="2C26842C"/>
               <VariableType>Float</VariableType>
               <Address>2C26842C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>148</ID>
               <Description>"Hitbox Scaling Y"</Description>
+              <LastState Value="2.142857552" RealAddress="2C268430"/>
               <VariableType>Float</VariableType>
               <Address>2C268430</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>216</ID>
               <Description>"Overall Scaling X"</Description>
+              <LastState Value="1" RealAddress="2C2685C4"/>
               <VariableType>Float</VariableType>
               <Address>2C2685C4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>217</ID>
               <Description>"Overall Scaling Y"</Description>
+              <LastState Value="1" RealAddress="2C2685C8"/>
               <VariableType>Float</VariableType>
               <Address>2C2685C8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>218</ID>
               <Description>"Overall Scaling Z"</Description>
+              <LastState Value="1" RealAddress="2C2685CC"/>
               <VariableType>Float</VariableType>
               <Address>2C2685CC</Address>
             </CheatEntry>
@@ -1070,48 +1192,56 @@
             <CheatEntry>
               <ID>329</ID>
               <Description>"Receiving Damage Animation State"</Description>
+              <LastState Value="0" RealAddress="2C2688E9"/>
               <VariableType>Byte</VariableType>
               <Address>2C2688E9</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>330</ID>
               <Description>"Special Move Animation State"</Description>
+              <LastState Value="0" RealAddress="2C2688EA"/>
               <VariableType>Byte</VariableType>
               <Address>2C2688EA</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>331</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="0" RealAddress="2C2689F4"/>
               <VariableType>Byte</VariableType>
               <Address>2C2689F4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>332</ID>
               <Description>"Animation Cycle Frame Timer"</Description>
+              <LastState Value="4" RealAddress="2C268A26"/>
               <VariableType>Byte</VariableType>
               <Address>2C268A26</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>333</ID>
               <Description>"Sprite ID"</Description>
+              <LastState Value="54" RealAddress="2C268A28"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268A28</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>334</ID>
               <Description>"Animation Pause Timer"</Description>
+              <LastState Value="0" RealAddress="2C268A84"/>
               <VariableType>Byte</VariableType>
               <Address>2C268A84</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>335</ID>
               <Description>"Animation State"</Description>
+              <LastState Value="0" RealAddress="2C268AB4"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AB4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>336</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="0" RealAddress="2C268AB6"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AB6</Address>
             </CheatEntry>
@@ -1127,72 +1257,84 @@
             <CheatEntry>
               <ID>338</ID>
               <Description>"Normal Attack Held Direction"</Description>
+              <LastState Value="0" RealAddress="2C268906"/>
               <VariableType>Byte</VariableType>
               <Address>2C268906</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>339</ID>
               <Description>"Jumping Special Move Limiter"</Description>
+              <LastState Value="0" RealAddress="2C268AB8"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AB8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>340</ID>
               <Description>"Air Dash Count"</Description>
+              <LastState Value="0" RealAddress="2C268AB9"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AB9</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>341</ID>
               <Description>"Normal Jumping Actions Counter"</Description>
+              <LastState Value="255" RealAddress="2C268ABA"/>
               <VariableType>Byte</VariableType>
               <Address>2C268ABA</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>342</ID>
               <Description>"Multiple Jumps Counter"</Description>
+              <LastState Value="0" RealAddress="2C268ABD"/>
               <VariableType>Byte</VariableType>
               <Address>2C268ABD</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>343</ID>
               <Description>"Normal Move Light/Medium/Heavy"</Description>
+              <LastState Value="0" RealAddress="2C268ACC"/>
               <VariableType>Byte</VariableType>
               <Address>2C268ACC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>344</ID>
               <Description>"Current Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C268ACD"/>
               <VariableType>Byte</VariableType>
               <Address>2C268ACD</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>345</ID>
               <Description>"Special Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C268AD6"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AD6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>346</ID>
               <Description>"Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C268AD7"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AD7</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>347</ID>
               <Description>"Has Been Thrown Count"</Description>
+              <LastState Value="0" RealAddress="2C268B1E"/>
               <VariableType>Byte</VariableType>
               <Address>2C268B1E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>348</ID>
               <Description>"DHC Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C268B3C"/>
               <VariableType>Byte</VariableType>
               <Address>2C268B3C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>349</ID>
               <Description>"Assist ID"</Description>
+              <LastState Value="1" RealAddress="2C268DAD"/>
               <VariableType>Byte</VariableType>
               <Address>2C268DAD</Address>
             </CheatEntry>
@@ -1208,36 +1350,42 @@
             <CheatEntry>
               <ID>351</ID>
               <Description>"Flight Timer (Sentinel)"</Description>
+              <LastState Value="0" RealAddress="2C268B88"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268B88</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>352</ID>
               <Description>"Flight Timer (Iron Man/War Machine)"</Description>
+              <LastState Value="0" RealAddress="2C268B8C"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268B8C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>353</ID>
               <Description>"Flight Timer (Magneto)"</Description>
+              <LastState Value="0" RealAddress="2C268B8E"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268B8E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>354</ID>
               <Description>"Flight Timer (Dhalsim)"</Description>
+              <LastState Value="0" RealAddress="2C268B90"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268B90</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>355</ID>
               <Description>"Flight Timer (Doctor Doom/M. Bison)"</Description>
+              <LastState Value="0" RealAddress="2C268B92"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268B92</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>356</ID>
               <Description>"Flight Timer (Storm)"</Description>
+              <LastState Value="0" RealAddress="2C268B98"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268B98</Address>
             </CheatEntry>
@@ -1253,36 +1401,42 @@
             <CheatEntry>
               <ID>358</ID>
               <Description>"Dizzy Stun Counter"</Description>
+              <LastState Value="80" RealAddress="2C268AC5"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AC5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>359</ID>
               <Description>"Dizzy Stun Reset Timer"</Description>
+              <LastState Value="0" RealAddress="2C268AC6"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AC6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>360</ID>
               <Description>"Throw Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C268ACF"/>
               <VariableType>Byte</VariableType>
               <Address>2C268ACF</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>361</ID>
               <Description>"Attack Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C268AD1"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AD1</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>362</ID>
               <Description>"Character Health"</Description>
+              <LastState Value="144" RealAddress="2C268D04"/>
               <VariableType>Byte</VariableType>
               <Address>2C268D04</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>363</ID>
               <Description>"Character Red Health"</Description>
+              <LastState Value="144" RealAddress="2C268D08"/>
               <VariableType>Byte</VariableType>
               <Address>2C268D08</Address>
             </CheatEntry>
@@ -1298,42 +1452,49 @@
             <CheatEntry>
               <ID>365</ID>
               <Description>"Is Active"</Description>
+              <LastState Value="1" RealAddress="2C2688E4"/>
               <VariableType>Byte</VariableType>
               <Address>2C2688E4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>366</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="23" RealAddress="2C2688E5"/>
               <VariableType>Byte</VariableType>
               <Address>2C2688E5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>367</ID>
               <Description>"Flying Screen Focus"</Description>
+              <LastState Value="0" RealAddress="2C268B19"/>
               <VariableType>Byte</VariableType>
               <Address>2C268B19</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>368</ID>
               <Description>"Distance From Enemy"</Description>
+              <LastState Value="319.1673584" RealAddress="2C268B7C"/>
               <VariableType>Float</VariableType>
               <Address>2C268B7C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>369</ID>
               <Description>"CPU Control"</Description>
+              <LastState Value="0" RealAddress="2C268E09"/>
               <VariableType>Byte</VariableType>
               <Address>2C268E09</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>370</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="23" RealAddress="2C268E10"/>
               <VariableType>Byte</VariableType>
               <Address>2C268E10</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>371</ID>
               <Description>"Palette ID"</Description>
+              <LastState Value="1" RealAddress="2C268E11"/>
               <VariableType>Byte</VariableType>
               <Address>2C268E11</Address>
             </CheatEntry>
@@ -1349,12 +1510,14 @@
             <CheatEntry>
               <ID>373</ID>
               <Description>"Camera Bounds Break Timer"</Description>
+              <LastState Value="0" RealAddress="2C268AD8"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AD8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>374</ID>
               <Description>"Snapout Character Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C268B84"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268B84</Address>
             </CheatEntry>
@@ -1370,42 +1533,49 @@
             <CheatEntry>
               <ID>376</ID>
               <Description>"Speed Up"</Description>
+              <LastState Value="0" RealAddress="2C268AE4"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AE4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>377</ID>
               <Description>"Flight"</Description>
+              <LastState Value="0" RealAddress="2C268AE5"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AE5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>378</ID>
               <Description>"Hyper Armor"</Description>
+              <LastState Value="0" RealAddress="2C268AE6"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AE6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>379</ID>
               <Description>"Idle Hover Animation"</Description>
+              <LastState Value="0" RealAddress="2C268AE7"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AE7</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>380</ID>
               <Description>"Damage Modifier"</Description>
+              <LastState Value="0" RealAddress="2C268AE9"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AE9</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>381</ID>
               <Description>"Defense Modifier"</Description>
+              <LastState Value="0" RealAddress="2C268AEA"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AEA</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>382</ID>
               <Description>"Landing Screen Shake Effect Intensity"</Description>
+              <LastState Value="3" RealAddress="2C268AEB"/>
               <VariableType>Byte</VariableType>
               <Address>2C268AEB</Address>
             </CheatEntry>
@@ -1421,24 +1591,28 @@
             <CheatEntry>
               <ID>384</ID>
               <Description>"Velocity X"</Description>
+              <LastState Value="0" RealAddress="2C268940"/>
               <VariableType>Float</VariableType>
               <Address>2C268940</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>385</ID>
               <Description>"Velocity Y"</Description>
+              <LastState Value="0" RealAddress="2C268944"/>
               <VariableType>Float</VariableType>
               <Address>2C268944</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>386</ID>
               <Description>"Gravity X"</Description>
+              <LastState Value="0" RealAddress="2C26894C"/>
               <VariableType>Float</VariableType>
               <Address>2C26894C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>387</ID>
               <Description>"Gravity Y"</Description>
+              <LastState Value="0" RealAddress="2C268950"/>
               <VariableType>Float</VariableType>
               <Address>2C268950</Address>
             </CheatEntry>
@@ -1454,24 +1628,28 @@
             <CheatEntry>
               <ID>389</ID>
               <Description>"Arena Position X"</Description>
+              <LastState Value="1244.999756" RealAddress="2C268918"/>
               <VariableType>Float</VariableType>
               <Address>2C268918</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>390</ID>
               <Description>"Arena Position Y"</Description>
+              <LastState Value="0" RealAddress="2C26891C"/>
               <VariableType>Float</VariableType>
               <Address>2C26891C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>391</ID>
               <Description>"Screen Position X"</Description>
+              <LastState Value="605.7034912" RealAddress="2C2689C4"/>
               <VariableType>Float</VariableType>
               <Address>2C2689C4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>392</ID>
               <Description>"Screen Position Y"</Description>
+              <LastState Value="438.6344604" RealAddress="2C2689C8"/>
               <VariableType>Float</VariableType>
               <Address>2C2689C8</Address>
             </CheatEntry>
@@ -1487,90 +1665,105 @@
             <CheatEntry>
               <ID>394</ID>
               <Description>"Sprite Pointer"</Description>
+              <LastState Value="210881468" RealAddress="2C268A38"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A38</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>395</ID>
               <Description>"DatGFX1 Pointer?"</Description>
+              <LastState Value="209780800" RealAddress="2C268A40"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A40</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>396</ID>
               <Description>"DatGFX2 Pointer?"</Description>
+              <LastState Value="210745536" RealAddress="2C268A44"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A44</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>397</ID>
               <Description>"DatPal Pointer?"</Description>
+              <LastState Value="210811392" RealAddress="2C268A48"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A48</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>398</ID>
               <Description>"Animations Pointer?"</Description>
+              <LastState Value="210878752" RealAddress="2C268A4C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A4C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>399</ID>
               <Description>"Hitbox Pattern Table Pointer?"</Description>
+              <LastState Value="210903040" RealAddress="2C268A50"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A50</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>400</ID>
               <Description>"Hitbox Table Pointer"</Description>
+              <LastState Value="210904896" RealAddress="2C268A54"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A54</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>401</ID>
               <Description>"Attack Data Pointer?"</Description>
+              <LastState Value="210906944" RealAddress="2C268A58"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A58</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>402</ID>
               <Description>"Projectile/Extras Pointer?"</Description>
+              <LastState Value="210813216" RealAddress="2C268A5C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A5C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>403</ID>
               <Description>"DatFPNT Pointer?"</Description>
+              <LastState Value="209780736" RealAddress="2C268A60"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A60</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>404</ID>
               <Description>"Prj Pointer?"</Description>
+              <LastState Value="211111936" RealAddress="2C268A64"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A64</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>405</ID>
               <Description>"FAC Texture Pointer?"</Description>
+              <LastState Value="211124224" RealAddress="2C268A68"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268A68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>406</ID>
               <Description>"Receiving Attack Pointer"</Description>
+              <LastState Value="209416424" RealAddress="2C268AA0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268AA0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>407</ID>
               <Description>"Hitbox Choice Pointer"</Description>
+              <LastState Value="210903056" RealAddress="2C268AA4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268AA4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>408</ID>
               <Description>"Enemy Pointer"</Description>
+              <LastState Value="2351334208" RealAddress="2C268AF0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268AF0</Address>
             </CheatEntry>
@@ -1586,48 +1779,56 @@
             <CheatEntry>
               <ID>410</ID>
               <Description>"Sprite Scale X"</Description>
+              <LastState Value="1" RealAddress="2C268934"/>
               <VariableType>Float</VariableType>
               <Address>2C268934</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>411</ID>
               <Description>"Sprite Scale Y"</Description>
+              <LastState Value="1" RealAddress="2C268938"/>
               <VariableType>Float</VariableType>
               <Address>2C268938</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>412</ID>
               <Description>"Sprite Scale Z"</Description>
+              <LastState Value="1" RealAddress="2C26893C"/>
               <VariableType>Float</VariableType>
               <Address>2C26893C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>413</ID>
               <Description>"Hitbox Scaling X"</Description>
+              <LastState Value="1.666666985" RealAddress="2C2689D0"/>
               <VariableType>Float</VariableType>
               <Address>2C2689D0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>414</ID>
               <Description>"Hitbox Scaling Y"</Description>
+              <LastState Value="2.142857552" RealAddress="2C2689D4"/>
               <VariableType>Float</VariableType>
               <Address>2C2689D4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>415</ID>
               <Description>"Overall Scaling X"</Description>
+              <LastState Value="1" RealAddress="2C268B68"/>
               <VariableType>Float</VariableType>
               <Address>2C268B68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>416</ID>
               <Description>"Overall Scaling Y"</Description>
+              <LastState Value="1" RealAddress="2C268B6C"/>
               <VariableType>Float</VariableType>
               <Address>2C268B6C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>417</ID>
               <Description>"Overall Scaling Z"</Description>
+              <LastState Value="1" RealAddress="2C268B70"/>
               <VariableType>Float</VariableType>
               <Address>2C268B70</Address>
             </CheatEntry>
@@ -1652,48 +1853,56 @@
             <CheatEntry>
               <ID>420</ID>
               <Description>"Receiving Damage Animation State"</Description>
+              <LastState Value="0" RealAddress="2C268E8D"/>
               <VariableType>Byte</VariableType>
               <Address>2C268E8D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>421</ID>
               <Description>"Special Move Animation State"</Description>
+              <LastState Value="0" RealAddress="2C268E8E"/>
               <VariableType>Byte</VariableType>
               <Address>2C268E8E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>422</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="1" RealAddress="2C268F98"/>
               <VariableType>Byte</VariableType>
               <Address>2C268F98</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>423</ID>
               <Description>"Animation Cycle Frame Timer"</Description>
+              <LastState Value="1" RealAddress="2C268FCA"/>
               <VariableType>Byte</VariableType>
               <Address>2C268FCA</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>424</ID>
               <Description>"Sprite ID"</Description>
+              <LastState Value="61" RealAddress="2C268FCC"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C268FCC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>425</ID>
               <Description>"Animation Pause Timer"</Description>
+              <LastState Value="0" RealAddress="2C269028"/>
               <VariableType>Byte</VariableType>
               <Address>2C269028</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>426</ID>
               <Description>"Animation State"</Description>
+              <LastState Value="0" RealAddress="2C269058"/>
               <VariableType>Byte</VariableType>
               <Address>2C269058</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>427</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="1" RealAddress="2C26905A"/>
               <VariableType>Byte</VariableType>
               <Address>2C26905A</Address>
             </CheatEntry>
@@ -1709,72 +1918,84 @@
             <CheatEntry>
               <ID>429</ID>
               <Description>"Normal Attack Held Direction"</Description>
+              <LastState Value="0" RealAddress="2C268EAA"/>
               <VariableType>Byte</VariableType>
               <Address>2C268EAA</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>430</ID>
               <Description>"Jumping Special Move Limiter"</Description>
+              <LastState Value="0" RealAddress="2C26905C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26905C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>431</ID>
               <Description>"Air Dash Count"</Description>
+              <LastState Value="0" RealAddress="2C26905D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26905D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>432</ID>
               <Description>"Normal Jumping Actions Counter"</Description>
+              <LastState Value="0" RealAddress="2C26905E"/>
               <VariableType>Byte</VariableType>
               <Address>2C26905E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>433</ID>
               <Description>"Multiple Jumps Counter"</Description>
+              <LastState Value="0" RealAddress="2C269061"/>
               <VariableType>Byte</VariableType>
               <Address>2C269061</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>434</ID>
               <Description>"Normal Move Light/Medium/Heavy"</Description>
+              <LastState Value="0" RealAddress="2C269070"/>
               <VariableType>Byte</VariableType>
               <Address>2C269070</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>435</ID>
               <Description>"Current Special Move ID"</Description>
+              <LastState Value="6" RealAddress="2C269071"/>
               <VariableType>Byte</VariableType>
               <Address>2C269071</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>436</ID>
               <Description>"Special Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C26907A"/>
               <VariableType>Byte</VariableType>
               <Address>2C26907A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>437</ID>
               <Description>"Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C26907B"/>
               <VariableType>Byte</VariableType>
               <Address>2C26907B</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>438</ID>
               <Description>"Has Been Thrown Count"</Description>
+              <LastState Value="0" RealAddress="2C2690C2"/>
               <VariableType>Byte</VariableType>
               <Address>2C2690C2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>439</ID>
               <Description>"DHC Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C2690E0"/>
               <VariableType>Byte</VariableType>
               <Address>2C2690E0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>440</ID>
               <Description>"Assist ID"</Description>
+              <LastState Value="2" RealAddress="2C269351"/>
               <VariableType>Byte</VariableType>
               <Address>2C269351</Address>
             </CheatEntry>
@@ -1790,36 +2011,42 @@
             <CheatEntry>
               <ID>442</ID>
               <Description>"Flight Timer (Sentinel)"</Description>
+              <LastState Value="0" RealAddress="2C26912C"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26912C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>443</ID>
               <Description>"Flight Timer (Iron Man/War Machine)"</Description>
+              <LastState Value="0" RealAddress="2C269130"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269130</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>444</ID>
               <Description>"Flight Timer (Magneto)"</Description>
+              <LastState Value="0" RealAddress="2C269132"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269132</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>445</ID>
               <Description>"Flight Timer (Dhalsim)"</Description>
+              <LastState Value="0" RealAddress="2C269134"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269134</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>446</ID>
               <Description>"Flight Timer (Doctor Doom/M. Bison)"</Description>
+              <LastState Value="0" RealAddress="2C269136"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269136</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>447</ID>
               <Description>"Flight Timer (Storm)"</Description>
+              <LastState Value="0" RealAddress="2C26913C"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26913C</Address>
             </CheatEntry>
@@ -1835,36 +2062,42 @@
             <CheatEntry>
               <ID>449</ID>
               <Description>"Dizzy Stun Counter"</Description>
+              <LastState Value="80" RealAddress="2C269069"/>
               <VariableType>Byte</VariableType>
               <Address>2C269069</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>450</ID>
               <Description>"Dizzy Stun Reset Timer"</Description>
+              <LastState Value="0" RealAddress="2C26906A"/>
               <VariableType>Byte</VariableType>
               <Address>2C26906A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>451</ID>
               <Description>"Throw Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C269073"/>
               <VariableType>Byte</VariableType>
               <Address>2C269073</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>452</ID>
               <Description>"Attack Immune Frame Timer"</Description>
+              <LastState Value="2" RealAddress="2C269075"/>
               <VariableType>Byte</VariableType>
               <Address>2C269075</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>453</ID>
               <Description>"Character Health"</Description>
+              <LastState Value="144" RealAddress="2C2692A8"/>
               <VariableType>Byte</VariableType>
               <Address>2C2692A8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>454</ID>
               <Description>"Character Red Health"</Description>
+              <LastState Value="144" RealAddress="2C2692AC"/>
               <VariableType>Byte</VariableType>
               <Address>2C2692AC</Address>
             </CheatEntry>
@@ -1880,42 +2113,49 @@
             <CheatEntry>
               <ID>456</ID>
               <Description>"Is Active"</Description>
+              <LastState Value="0" RealAddress="2C268E88"/>
               <VariableType>Byte</VariableType>
               <Address>2C268E88</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>457</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="52" RealAddress="2C268E89"/>
               <VariableType>Byte</VariableType>
               <Address>2C268E89</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>458</ID>
               <Description>"Flying Screen Focus"</Description>
+              <LastState Value="0" RealAddress="2C2690BD"/>
               <VariableType>Byte</VariableType>
               <Address>2C2690BD</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>459</ID>
               <Description>"Distance From Enemy"</Description>
+              <LastState Value="744.1224365" RealAddress="2C269120"/>
               <VariableType>Float</VariableType>
               <Address>2C269120</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>460</ID>
               <Description>"CPU Control"</Description>
+              <LastState Value="0" RealAddress="2C2693AD"/>
               <VariableType>Byte</VariableType>
               <Address>2C2693AD</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>461</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="52" RealAddress="2C2693B4"/>
               <VariableType>Byte</VariableType>
               <Address>2C2693B4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>462</ID>
               <Description>"Palette ID"</Description>
+              <LastState Value="2" RealAddress="2C2693B5"/>
               <VariableType>Byte</VariableType>
               <Address>2C2693B5</Address>
             </CheatEntry>
@@ -1931,12 +2171,14 @@
             <CheatEntry>
               <ID>464</ID>
               <Description>"Camera Bounds Break Timer"</Description>
+              <LastState Value="1" RealAddress="2C26907C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26907C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>465</ID>
               <Description>"Snapout Character Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C269128"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269128</Address>
             </CheatEntry>
@@ -1952,42 +2194,49 @@
             <CheatEntry>
               <ID>467</ID>
               <Description>"Speed Up"</Description>
+              <LastState Value="0" RealAddress="2C269088"/>
               <VariableType>Byte</VariableType>
               <Address>2C269088</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>468</ID>
               <Description>"Flight"</Description>
+              <LastState Value="0" RealAddress="2C269089"/>
               <VariableType>Byte</VariableType>
               <Address>2C269089</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>469</ID>
               <Description>"Hyper Armor"</Description>
+              <LastState Value="0" RealAddress="2C26908A"/>
               <VariableType>Byte</VariableType>
               <Address>2C26908A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>470</ID>
               <Description>"Idle Hover Animation"</Description>
+              <LastState Value="0" RealAddress="2C26908B"/>
               <VariableType>Byte</VariableType>
               <Address>2C26908B</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>471</ID>
               <Description>"Damage Modifier"</Description>
+              <LastState Value="0" RealAddress="2C26908D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26908D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>472</ID>
               <Description>"Defense Modifier"</Description>
+              <LastState Value="0" RealAddress="2C26908E"/>
               <VariableType>Byte</VariableType>
               <Address>2C26908E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>473</ID>
               <Description>"Landing Screen Shake Effect Intensity"</Description>
+              <LastState Value="7" RealAddress="2C26908F"/>
               <VariableType>Byte</VariableType>
               <Address>2C26908F</Address>
             </CheatEntry>
@@ -2003,24 +2252,28 @@
             <CheatEntry>
               <ID>475</ID>
               <Description>"Velocity X"</Description>
+              <LastState Value="-16.66666603" RealAddress="2C268EE4"/>
               <VariableType>Float</VariableType>
               <Address>2C268EE4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>476</ID>
               <Description>"Velocity Y"</Description>
+              <LastState Value="2.67856884" RealAddress="2C268EE8"/>
               <VariableType>Float</VariableType>
               <Address>2C268EE8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>477</ID>
               <Description>"Gravity X"</Description>
+              <LastState Value="0" RealAddress="2C268EF0"/>
               <VariableType>Float</VariableType>
               <Address>2C268EF0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>478</ID>
               <Description>"Gravity Y"</Description>
+              <LastState Value="-0.803571403" RealAddress="2C268EF4"/>
               <VariableType>Float</VariableType>
               <Address>2C268EF4</Address>
             </CheatEntry>
@@ -2036,24 +2289,28 @@
             <CheatEntry>
               <ID>480</ID>
               <Description>"Arena Position X"</Description>
+              <LastState Value="-1386.666626" RealAddress="2C268EBC"/>
               <VariableType>Float</VariableType>
               <Address>2C268EBC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>481</ID>
               <Description>"Arena Position Y"</Description>
+              <LastState Value="0" RealAddress="2C268EC0"/>
               <VariableType>Float</VariableType>
               <Address>2C268EC0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>482</ID>
               <Description>"Screen Position X"</Description>
+              <LastState Value="-227.9108887" RealAddress="2C268F68"/>
               <VariableType>Float</VariableType>
               <Address>2C268F68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>483</ID>
               <Description>"Screen Position Y"</Description>
+              <LastState Value="256.2572021" RealAddress="2C268F6C"/>
               <VariableType>Float</VariableType>
               <Address>2C268F6C</Address>
             </CheatEntry>
@@ -2069,90 +2326,105 @@
             <CheatEntry>
               <ID>485</ID>
               <Description>"Sprite Pointer"</Description>
+              <LastState Value="208254760" RealAddress="2C268FDC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FDC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>486</ID>
               <Description>"DatGFX1 Pointer?"</Description>
+              <LastState Value="207028288" RealAddress="2C268FE4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FE4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>487</ID>
               <Description>"DatGFX2 Pointer?"</Description>
+              <LastState Value="208093024" RealAddress="2C268FE8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FE8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>488</ID>
               <Description>"DatPal Pointer?"</Description>
+              <LastState Value="208164896" RealAddress="2C268FEC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FEC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>489</ID>
               <Description>"Animations Pointer?"</Description>
+              <LastState Value="208232800" RealAddress="2C268FF0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FF0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>490</ID>
               <Description>"Hitbox Pattern Table Pointer?"</Description>
+              <LastState Value="208255488" RealAddress="2C268FF4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FF4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>491</ID>
               <Description>"Hitbox Table Pointer"</Description>
+              <LastState Value="208256704" RealAddress="2C268FF8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FF8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>492</ID>
               <Description>"Attack Data Pointer?"</Description>
+              <LastState Value="208258752" RealAddress="2C268FFC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C268FFC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>493</ID>
               <Description>"Projectile/Extras Pointer?"</Description>
+              <LastState Value="208167264" RealAddress="2C269000"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269000</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>494</ID>
               <Description>"DatFPNT Pointer?"</Description>
+              <LastState Value="207028224" RealAddress="2C269004"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269004</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>495</ID>
               <Description>"Prj Pointer?"</Description>
+              <LastState Value="208359424" RealAddress="2C269008"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269008</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>496</ID>
               <Description>"FAC Texture Pointer?"</Description>
+              <LastState Value="208371712" RealAddress="2C26900C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26900C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>497</ID>
               <Description>"Receiving Attack Pointer"</Description>
+              <LastState Value="0" RealAddress="2C269044"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269044</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>498</ID>
               <Description>"Hitbox Choice Pointer"</Description>
+              <LastState Value="208255536" RealAddress="2C269048"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269048</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>499</ID>
               <Description>"Enemy Pointer"</Description>
+              <LastState Value="2351335652" RealAddress="2C269094"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269094</Address>
             </CheatEntry>
@@ -2168,48 +2440,56 @@
             <CheatEntry>
               <ID>501</ID>
               <Description>"Sprite Scale X"</Description>
+              <LastState Value="1" RealAddress="2C268ED8"/>
               <VariableType>Float</VariableType>
               <Address>2C268ED8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>502</ID>
               <Description>"Sprite Scale Y"</Description>
+              <LastState Value="1" RealAddress="2C268EDC"/>
               <VariableType>Float</VariableType>
               <Address>2C268EDC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>503</ID>
               <Description>"Sprite Scale Z"</Description>
+              <LastState Value="1" RealAddress="2C268EE0"/>
               <VariableType>Float</VariableType>
               <Address>2C268EE0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>504</ID>
               <Description>"Hitbox Scaling X"</Description>
+              <LastState Value="1.666666985" RealAddress="2C268F74"/>
               <VariableType>Float</VariableType>
               <Address>2C268F74</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>505</ID>
               <Description>"Hitbox Scaling Y"</Description>
+              <LastState Value="2.142857552" RealAddress="2C268F78"/>
               <VariableType>Float</VariableType>
               <Address>2C268F78</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>506</ID>
               <Description>"Overall Scaling X"</Description>
+              <LastState Value="1" RealAddress="2C26910C"/>
               <VariableType>Float</VariableType>
               <Address>2C26910C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>507</ID>
               <Description>"Overall Scaling Y"</Description>
+              <LastState Value="1" RealAddress="2C269110"/>
               <VariableType>Float</VariableType>
               <Address>2C269110</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>508</ID>
               <Description>"Overall Scaling Z"</Description>
+              <LastState Value="1" RealAddress="2C269114"/>
               <VariableType>Float</VariableType>
               <Address>2C269114</Address>
             </CheatEntry>
@@ -2234,48 +2514,56 @@
             <CheatEntry>
               <ID>511</ID>
               <Description>"Receiving Damage Animation State"</Description>
+              <LastState Value="0" RealAddress="2C269431"/>
               <VariableType>Byte</VariableType>
               <Address>2C269431</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>512</ID>
               <Description>"Special Move Animation State"</Description>
+              <LastState Value="0" RealAddress="2C269432"/>
               <VariableType>Byte</VariableType>
               <Address>2C269432</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>513</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="0" RealAddress="2C26953C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26953C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>514</ID>
               <Description>"Animation Cycle Frame Timer"</Description>
+              <LastState Value="4" RealAddress="2C26956E"/>
               <VariableType>Byte</VariableType>
               <Address>2C26956E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>515</ID>
               <Description>"Sprite ID"</Description>
+              <LastState Value="39" RealAddress="2C269570"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269570</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>516</ID>
               <Description>"Animation Pause Timer"</Description>
+              <LastState Value="0" RealAddress="2C2695CC"/>
               <VariableType>Byte</VariableType>
               <Address>2C2695CC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>517</ID>
               <Description>"Animation State"</Description>
+              <LastState Value="0" RealAddress="2C2695FC"/>
               <VariableType>Byte</VariableType>
               <Address>2C2695FC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>518</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="0" RealAddress="2C2695FE"/>
               <VariableType>Byte</VariableType>
               <Address>2C2695FE</Address>
             </CheatEntry>
@@ -2291,72 +2579,84 @@
             <CheatEntry>
               <ID>520</ID>
               <Description>"Normal Attack Held Direction"</Description>
+              <LastState Value="0" RealAddress="2C26944E"/>
               <VariableType>Byte</VariableType>
               <Address>2C26944E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>521</ID>
               <Description>"Jumping Special Move Limiter"</Description>
+              <LastState Value="0" RealAddress="2C269600"/>
               <VariableType>Byte</VariableType>
               <Address>2C269600</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>522</ID>
               <Description>"Air Dash Count"</Description>
+              <LastState Value="0" RealAddress="2C269601"/>
               <VariableType>Byte</VariableType>
               <Address>2C269601</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>523</ID>
               <Description>"Normal Jumping Actions Counter"</Description>
+              <LastState Value="0" RealAddress="2C269602"/>
               <VariableType>Byte</VariableType>
               <Address>2C269602</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>524</ID>
               <Description>"Multiple Jumps Counter"</Description>
+              <LastState Value="0" RealAddress="2C269605"/>
               <VariableType>Byte</VariableType>
               <Address>2C269605</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>525</ID>
               <Description>"Normal Move Light/Medium/Heavy"</Description>
+              <LastState Value="0" RealAddress="2C269614"/>
               <VariableType>Byte</VariableType>
               <Address>2C269614</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>526</ID>
               <Description>"Current Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C269615"/>
               <VariableType>Byte</VariableType>
               <Address>2C269615</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>527</ID>
               <Description>"Special Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C26961E"/>
               <VariableType>Byte</VariableType>
               <Address>2C26961E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>528</ID>
               <Description>"Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C26961F"/>
               <VariableType>Byte</VariableType>
               <Address>2C26961F</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>529</ID>
               <Description>"Has Been Thrown Count"</Description>
+              <LastState Value="0" RealAddress="2C269666"/>
               <VariableType>Byte</VariableType>
               <Address>2C269666</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>530</ID>
               <Description>"DHC Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C269684"/>
               <VariableType>Byte</VariableType>
               <Address>2C269684</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>531</ID>
               <Description>"Assist ID"</Description>
+              <LastState Value="2" RealAddress="2C2698F5"/>
               <VariableType>Byte</VariableType>
               <Address>2C2698F5</Address>
             </CheatEntry>
@@ -2372,36 +2672,42 @@
             <CheatEntry>
               <ID>533</ID>
               <Description>"Flight Timer (Sentinel)"</Description>
+              <LastState Value="0" RealAddress="2C2696D0"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2696D0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>534</ID>
               <Description>"Flight Timer (Iron Man/War Machine)"</Description>
+              <LastState Value="0" RealAddress="2C2696D4"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2696D4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>535</ID>
               <Description>"Flight Timer (Magneto)"</Description>
+              <LastState Value="0" RealAddress="2C2696D6"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2696D6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>536</ID>
               <Description>"Flight Timer (Dhalsim)"</Description>
+              <LastState Value="0" RealAddress="2C2696D8"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2696D8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>537</ID>
               <Description>"Flight Timer (Doctor Doom/M. Bison)"</Description>
+              <LastState Value="0" RealAddress="2C2696DA"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2696DA</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>538</ID>
               <Description>"Flight Timer (Storm)"</Description>
+              <LastState Value="0" RealAddress="2C2696E0"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2696E0</Address>
             </CheatEntry>
@@ -2417,36 +2723,42 @@
             <CheatEntry>
               <ID>540</ID>
               <Description>"Dizzy Stun Counter"</Description>
+              <LastState Value="80" RealAddress="2C26960D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26960D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>541</ID>
               <Description>"Dizzy Stun Reset Timer"</Description>
+              <LastState Value="0" RealAddress="2C26960E"/>
               <VariableType>Byte</VariableType>
               <Address>2C26960E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>542</ID>
               <Description>"Throw Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C269617"/>
               <VariableType>Byte</VariableType>
               <Address>2C269617</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>543</ID>
               <Description>"Attack Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C269619"/>
               <VariableType>Byte</VariableType>
               <Address>2C269619</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>544</ID>
               <Description>"Character Health"</Description>
+              <LastState Value="144" RealAddress="2C26984C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26984C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>545</ID>
               <Description>"Character Red Health"</Description>
+              <LastState Value="144" RealAddress="2C269850"/>
               <VariableType>Byte</VariableType>
               <Address>2C269850</Address>
             </CheatEntry>
@@ -2462,42 +2774,49 @@
             <CheatEntry>
               <ID>547</ID>
               <Description>"Is Active"</Description>
+              <LastState Value="0" RealAddress="2C26942C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26942C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>548</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="52" RealAddress="2C26942D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26942D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>549</ID>
               <Description>"Flying Screen Focus"</Description>
+              <LastState Value="0" RealAddress="2C269661"/>
               <VariableType>Byte</VariableType>
               <Address>2C269661</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>550</ID>
               <Description>"Distance From Enemy"</Description>
+              <LastState Value="0" RealAddress="2C2696C4"/>
               <VariableType>Float</VariableType>
               <Address>2C2696C4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>551</ID>
               <Description>"CPU Control"</Description>
+              <LastState Value="0" RealAddress="2C269951"/>
               <VariableType>Byte</VariableType>
               <Address>2C269951</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>552</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="52" RealAddress="2C269958"/>
               <VariableType>Byte</VariableType>
               <Address>2C269958</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>553</ID>
               <Description>"Palette ID"</Description>
+              <LastState Value="4" RealAddress="2C269959"/>
               <VariableType>Byte</VariableType>
               <Address>2C269959</Address>
             </CheatEntry>
@@ -2513,12 +2832,14 @@
             <CheatEntry>
               <ID>555</ID>
               <Description>"Camera Bounds Break Timer"</Description>
+              <LastState Value="0" RealAddress="2C269620"/>
               <VariableType>Byte</VariableType>
               <Address>2C269620</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>556</ID>
               <Description>"Snapout Character Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C2696CC"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C2696CC</Address>
             </CheatEntry>
@@ -2534,42 +2855,49 @@
             <CheatEntry>
               <ID>558</ID>
               <Description>"Speed Up"</Description>
+              <LastState Value="0" RealAddress="2C26962C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26962C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>559</ID>
               <Description>"Flight"</Description>
+              <LastState Value="0" RealAddress="2C26962D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26962D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>560</ID>
               <Description>"Hyper Armor"</Description>
+              <LastState Value="0" RealAddress="2C26962E"/>
               <VariableType>Byte</VariableType>
               <Address>2C26962E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>561</ID>
               <Description>"Idle Hover Animation"</Description>
+              <LastState Value="0" RealAddress="2C26962F"/>
               <VariableType>Byte</VariableType>
               <Address>2C26962F</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>562</ID>
               <Description>"Damage Modifier"</Description>
+              <LastState Value="0" RealAddress="2C269631"/>
               <VariableType>Byte</VariableType>
               <Address>2C269631</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>563</ID>
               <Description>"Defense Modifier"</Description>
+              <LastState Value="0" RealAddress="2C269632"/>
               <VariableType>Byte</VariableType>
               <Address>2C269632</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>564</ID>
               <Description>"Landing Screen Shake Effect Intensity"</Description>
+              <LastState Value="7" RealAddress="2C269633"/>
               <VariableType>Byte</VariableType>
               <Address>2C269633</Address>
             </CheatEntry>
@@ -2585,24 +2913,28 @@
             <CheatEntry>
               <ID>566</ID>
               <Description>"Velocity X"</Description>
+              <LastState Value="0" RealAddress="2C269488"/>
               <VariableType>Float</VariableType>
               <Address>2C269488</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>567</ID>
               <Description>"Velocity Y"</Description>
+              <LastState Value="0" RealAddress="2C26948C"/>
               <VariableType>Float</VariableType>
               <Address>2C26948C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>568</ID>
               <Description>"Gravity X"</Description>
+              <LastState Value="0" RealAddress="2C269494"/>
               <VariableType>Float</VariableType>
               <Address>2C269494</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>569</ID>
               <Description>"Gravity Y"</Description>
+              <LastState Value="0" RealAddress="2C269498"/>
               <VariableType>Float</VariableType>
               <Address>2C269498</Address>
             </CheatEntry>
@@ -2618,24 +2950,28 @@
             <CheatEntry>
               <ID>571</ID>
               <Description>"Arena Position X"</Description>
+              <LastState Value="213.3333282" RealAddress="2C269460"/>
               <VariableType>Float</VariableType>
               <Address>2C269460</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>572</ID>
               <Description>"Arena Position Y"</Description>
+              <LastState Value="0" RealAddress="2C269464"/>
               <VariableType>Float</VariableType>
               <Address>2C269464</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>573</ID>
               <Description>"Screen Position X"</Description>
+              <LastState Value="0" RealAddress="2C26950C"/>
               <VariableType>Float</VariableType>
               <Address>2C26950C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>574</ID>
               <Description>"Screen Position Y"</Description>
+              <LastState Value="0" RealAddress="2C269510"/>
               <VariableType>Float</VariableType>
               <Address>2C269510</Address>
             </CheatEntry>
@@ -2651,90 +2987,105 @@
             <CheatEntry>
               <ID>576</ID>
               <Description>"Sprite Pointer"</Description>
+              <LastState Value="212363116" RealAddress="2C269580"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269580</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>577</ID>
               <Description>"DatGFX1 Pointer?"</Description>
+              <LastState Value="211157056" RealAddress="2C269588"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269588</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>578</ID>
               <Description>"DatGFX2 Pointer?"</Description>
+              <LastState Value="212221792" RealAddress="2C26958C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26958C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>579</ID>
               <Description>"DatPal Pointer?"</Description>
+              <LastState Value="212293664" RealAddress="2C269590"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269590</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>580</ID>
               <Description>"Animations Pointer?"</Description>
+              <LastState Value="212361568" RealAddress="2C269594"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269594</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>581</ID>
               <Description>"Hitbox Pattern Table Pointer?"</Description>
+              <LastState Value="212384256" RealAddress="2C269598"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269598</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>582</ID>
               <Description>"Hitbox Table Pointer"</Description>
+              <LastState Value="212385472" RealAddress="2C26959C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26959C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>583</ID>
               <Description>"Attack Data Pointer?"</Description>
+              <LastState Value="212387520" RealAddress="2C2695A0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2695A0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>584</ID>
               <Description>"Projectile/Extras Pointer?"</Description>
+              <LastState Value="212296032" RealAddress="2C2695A4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2695A4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>585</ID>
               <Description>"DatFPNT Pointer?"</Description>
+              <LastState Value="211156992" RealAddress="2C2695A8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2695A8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>586</ID>
               <Description>"Prj Pointer?"</Description>
+              <LastState Value="212488192" RealAddress="2C2695AC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2695AC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>587</ID>
               <Description>"FAC Texture Pointer?"</Description>
+              <LastState Value="212500480" RealAddress="2C2695B0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2695B0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>588</ID>
               <Description>"Receiving Attack Pointer"</Description>
+              <LastState Value="0" RealAddress="2C2695E8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2695E8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>589</ID>
               <Description>"Hitbox Choice Pointer"</Description>
+              <LastState Value="212384272" RealAddress="2C2695EC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C2695EC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>590</ID>
               <Description>"Enemy Pointer"</Description>
+              <LastState Value="2351334208" RealAddress="2C269638"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269638</Address>
             </CheatEntry>
@@ -2750,48 +3101,56 @@
             <CheatEntry>
               <ID>592</ID>
               <Description>"Sprite Scale X"</Description>
+              <LastState Value="1" RealAddress="2C26947C"/>
               <VariableType>Float</VariableType>
               <Address>2C26947C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>593</ID>
               <Description>"Sprite Scale Y"</Description>
+              <LastState Value="1" RealAddress="2C269480"/>
               <VariableType>Float</VariableType>
               <Address>2C269480</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>594</ID>
               <Description>"Sprite Scale Z"</Description>
+              <LastState Value="1" RealAddress="2C269484"/>
               <VariableType>Float</VariableType>
               <Address>2C269484</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>595</ID>
               <Description>"Hitbox Scaling X"</Description>
+              <LastState Value="1.666666627" RealAddress="2C269518"/>
               <VariableType>Float</VariableType>
               <Address>2C269518</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>596</ID>
               <Description>"Hitbox Scaling Y"</Description>
+              <LastState Value="2.142857075" RealAddress="2C26951C"/>
               <VariableType>Float</VariableType>
               <Address>2C26951C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>597</ID>
               <Description>"Overall Scaling X"</Description>
+              <LastState Value="1" RealAddress="2C2696B0"/>
               <VariableType>Float</VariableType>
               <Address>2C2696B0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>598</ID>
               <Description>"Overall Scaling Y"</Description>
+              <LastState Value="1" RealAddress="2C2696B4"/>
               <VariableType>Float</VariableType>
               <Address>2C2696B4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>599</ID>
               <Description>"Overall Scaling Z"</Description>
+              <LastState Value="1" RealAddress="2C2696B8"/>
               <VariableType>Float</VariableType>
               <Address>2C2696B8</Address>
             </CheatEntry>
@@ -2816,48 +3175,56 @@
             <CheatEntry>
               <ID>602</ID>
               <Description>"Receiving Damage Animation State"</Description>
+              <LastState Value="0" RealAddress="2C2699D5"/>
               <VariableType>Byte</VariableType>
               <Address>2C2699D5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>603</ID>
               <Description>"Special Move Animation State"</Description>
+              <LastState Value="0" RealAddress="2C2699D6"/>
               <VariableType>Byte</VariableType>
               <Address>2C2699D6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>604</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="1" RealAddress="2C269AE0"/>
               <VariableType>Byte</VariableType>
               <Address>2C269AE0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>605</ID>
               <Description>"Animation Cycle Frame Timer"</Description>
+              <LastState Value="2" RealAddress="2C269B12"/>
               <VariableType>Byte</VariableType>
               <Address>2C269B12</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>606</ID>
               <Description>"Sprite ID"</Description>
+              <LastState Value="158" RealAddress="2C269B14"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269B14</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>607</ID>
               <Description>"Animation Pause Timer"</Description>
+              <LastState Value="0" RealAddress="2C269B70"/>
               <VariableType>Byte</VariableType>
               <Address>2C269B70</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>608</ID>
               <Description>"Animation State"</Description>
+              <LastState Value="0" RealAddress="2C269BA0"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BA0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>609</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="1" RealAddress="2C269BA2"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BA2</Address>
             </CheatEntry>
@@ -2873,72 +3240,84 @@
             <CheatEntry>
               <ID>611</ID>
               <Description>"Normal Attack Held Direction"</Description>
+              <LastState Value="0" RealAddress="2C2699F2"/>
               <VariableType>Byte</VariableType>
               <Address>2C2699F2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>612</ID>
               <Description>"Jumping Special Move Limiter"</Description>
+              <LastState Value="0" RealAddress="2C269BA4"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BA4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>613</ID>
               <Description>"Air Dash Count"</Description>
+              <LastState Value="0" RealAddress="2C269BA5"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BA5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>614</ID>
               <Description>"Normal Jumping Actions Counter"</Description>
+              <LastState Value="0" RealAddress="2C269BA6"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BA6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>615</ID>
               <Description>"Multiple Jumps Counter"</Description>
+              <LastState Value="0" RealAddress="2C269BA9"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BA9</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>616</ID>
               <Description>"Normal Move Light/Medium/Heavy"</Description>
+              <LastState Value="0" RealAddress="2C269BB8"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BB8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>617</ID>
               <Description>"Current Special Move ID"</Description>
+              <LastState Value="2" RealAddress="2C269BB9"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BB9</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>618</ID>
               <Description>"Special Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C269BC2"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BC2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>619</ID>
               <Description>"Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C269BC3"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BC3</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>620</ID>
               <Description>"Has Been Thrown Count"</Description>
+              <LastState Value="0" RealAddress="2C269C0A"/>
               <VariableType>Byte</VariableType>
               <Address>2C269C0A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>621</ID>
               <Description>"DHC Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C269C28"/>
               <VariableType>Byte</VariableType>
               <Address>2C269C28</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>622</ID>
               <Description>"Assist ID"</Description>
+              <LastState Value="1" RealAddress="2C269E99"/>
               <VariableType>Byte</VariableType>
               <Address>2C269E99</Address>
             </CheatEntry>
@@ -2954,36 +3333,42 @@
             <CheatEntry>
               <ID>624</ID>
               <Description>"Flight Timer (Sentinel)"</Description>
+              <LastState Value="256" RealAddress="2C269C74"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269C74</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>625</ID>
               <Description>"Flight Timer (Iron Man/War Machine)"</Description>
+              <LastState Value="0" RealAddress="2C269C78"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269C78</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>626</ID>
               <Description>"Flight Timer (Magneto)"</Description>
+              <LastState Value="0" RealAddress="2C269C7A"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269C7A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>627</ID>
               <Description>"Flight Timer (Dhalsim)"</Description>
+              <LastState Value="0" RealAddress="2C269C7C"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269C7C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>628</ID>
               <Description>"Flight Timer (Doctor Doom/M. Bison)"</Description>
+              <LastState Value="0" RealAddress="2C269C7E"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269C7E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>629</ID>
               <Description>"Flight Timer (Storm)"</Description>
+              <LastState Value="0" RealAddress="2C269C84"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269C84</Address>
             </CheatEntry>
@@ -2999,36 +3384,42 @@
             <CheatEntry>
               <ID>631</ID>
               <Description>"Dizzy Stun Counter"</Description>
+              <LastState Value="80" RealAddress="2C269BB1"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BB1</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>632</ID>
               <Description>"Dizzy Stun Reset Timer"</Description>
+              <LastState Value="0" RealAddress="2C269BB2"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BB2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>633</ID>
               <Description>"Throw Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C269BBB"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BBB</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>634</ID>
               <Description>"Attack Immune Frame Timer"</Description>
+              <LastState Value="2" RealAddress="2C269BBD"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BBD</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>635</ID>
               <Description>"Character Health"</Description>
+              <LastState Value="144" RealAddress="2C269DF0"/>
               <VariableType>Byte</VariableType>
               <Address>2C269DF0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>636</ID>
               <Description>"Character Red Health"</Description>
+              <LastState Value="144" RealAddress="2C269DF4"/>
               <VariableType>Byte</VariableType>
               <Address>2C269DF4</Address>
             </CheatEntry>
@@ -3044,42 +3435,49 @@
             <CheatEntry>
               <ID>638</ID>
               <Description>"Is Active"</Description>
+              <LastState Value="0" RealAddress="2C2699D0"/>
               <VariableType>Byte</VariableType>
               <Address>2C2699D0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>639</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="56" RealAddress="2C2699D1"/>
               <VariableType>Byte</VariableType>
               <Address>2C2699D1</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>640</ID>
               <Description>"Flying Screen Focus"</Description>
+              <LastState Value="0" RealAddress="2C269C05"/>
               <VariableType>Byte</VariableType>
               <Address>2C269C05</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>641</ID>
               <Description>"Distance From Enemy"</Description>
+              <LastState Value="738.3341064" RealAddress="2C269C68"/>
               <VariableType>Float</VariableType>
               <Address>2C269C68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>642</ID>
               <Description>"CPU Control"</Description>
+              <LastState Value="0" RealAddress="2C269EF5"/>
               <VariableType>Byte</VariableType>
               <Address>2C269EF5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>643</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="56" RealAddress="2C269EFC"/>
               <VariableType>Byte</VariableType>
               <Address>2C269EFC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>644</ID>
               <Description>"Palette ID"</Description>
+              <LastState Value="0" RealAddress="2C269EFD"/>
               <VariableType>Byte</VariableType>
               <Address>2C269EFD</Address>
             </CheatEntry>
@@ -3095,12 +3493,14 @@
             <CheatEntry>
               <ID>646</ID>
               <Description>"Camera Bounds Break Timer"</Description>
+              <LastState Value="1" RealAddress="2C269BC4"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BC4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>647</ID>
               <Description>"Snapout Character Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C269C70"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C269C70</Address>
             </CheatEntry>
@@ -3116,42 +3516,49 @@
             <CheatEntry>
               <ID>649</ID>
               <Description>"Speed Up"</Description>
+              <LastState Value="0" RealAddress="2C269BD0"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BD0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>650</ID>
               <Description>"Flight"</Description>
+              <LastState Value="0" RealAddress="2C269BD1"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BD1</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>651</ID>
               <Description>"Hyper Armor"</Description>
+              <LastState Value="0" RealAddress="2C269BD2"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BD2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>652</ID>
               <Description>"Idle Hover Animation"</Description>
+              <LastState Value="0" RealAddress="2C269BD3"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BD3</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>653</ID>
               <Description>"Damage Modifier"</Description>
+              <LastState Value="0" RealAddress="2C269BD5"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BD5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>654</ID>
               <Description>"Defense Modifier"</Description>
+              <LastState Value="0" RealAddress="2C269BD6"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BD6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>655</ID>
               <Description>"Landing Screen Shake Effect Intensity"</Description>
+              <LastState Value="3" RealAddress="2C269BD7"/>
               <VariableType>Byte</VariableType>
               <Address>2C269BD7</Address>
             </CheatEntry>
@@ -3167,24 +3574,28 @@
             <CheatEntry>
               <ID>657</ID>
               <Description>"Velocity X"</Description>
+              <LastState Value="-16.66666603" RealAddress="2C269A2C"/>
               <VariableType>Float</VariableType>
               <Address>2C269A2C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>658</ID>
               <Description>"Velocity Y"</Description>
+              <LastState Value="-6.964287758" RealAddress="2C269A30"/>
               <VariableType>Float</VariableType>
               <Address>2C269A30</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>659</ID>
               <Description>"Gravity X"</Description>
+              <LastState Value="0" RealAddress="2C269A38"/>
               <VariableType>Float</VariableType>
               <Address>2C269A38</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>660</ID>
               <Description>"Gravity Y"</Description>
+              <LastState Value="-0.803571403" RealAddress="2C269A3C"/>
               <VariableType>Float</VariableType>
               <Address>2C269A3C</Address>
             </CheatEntry>
@@ -3200,24 +3611,28 @@
             <CheatEntry>
               <ID>662</ID>
               <Description>"Arena Position X"</Description>
+              <LastState Value="-1386.666626" RealAddress="2C269A04"/>
               <VariableType>Float</VariableType>
               <Address>2C269A04</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>663</ID>
               <Description>"Arena Position Y"</Description>
+              <LastState Value="0" RealAddress="2C269A08"/>
               <VariableType>Float</VariableType>
               <Address>2C269A08</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>664</ID>
               <Description>"Screen Position X"</Description>
+              <LastState Value="-201.6673889" RealAddress="2C269AB0"/>
               <VariableType>Float</VariableType>
               <Address>2C269AB0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>665</ID>
               <Description>"Screen Position Y"</Description>
+              <LastState Value="267.5072327" RealAddress="2C269AB4"/>
               <VariableType>Float</VariableType>
               <Address>2C269AB4</Address>
             </CheatEntry>
@@ -3233,90 +3648,105 @@
             <CheatEntry>
               <ID>667</ID>
               <Description>"Sprite Pointer"</Description>
+              <LastState Value="209399936" RealAddress="2C269B24"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B24</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>668</ID>
               <Description>"DatGFX1 Pointer?"</Description>
+              <LastState Value="208404544" RealAddress="2C269B2C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B2C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>669</ID>
               <Description>"DatGFX2 Pointer?"</Description>
+              <LastState Value="209221792" RealAddress="2C269B30"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B30</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>670</ID>
               <Description>"DatPal Pointer?"</Description>
+              <LastState Value="209314688" RealAddress="2C269B34"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B34</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>671</ID>
               <Description>"Animations Pointer?"</Description>
+              <LastState Value="209382560" RealAddress="2C269B38"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B38</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>672</ID>
               <Description>"Hitbox Pattern Table Pointer?"</Description>
+              <LastState Value="209410272" RealAddress="2C269B3C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B3C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>673</ID>
               <Description>"Hitbox Table Pointer"</Description>
+              <LastState Value="209412192" RealAddress="2C269B40"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B40</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>674</ID>
               <Description>"Attack Data Pointer?"</Description>
+              <LastState Value="209414240" RealAddress="2C269B44"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B44</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>675</ID>
               <Description>"Projectile/Extras Pointer?"</Description>
+              <LastState Value="209317024" RealAddress="2C269B48"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B48</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>676</ID>
               <Description>"DatFPNT Pointer?"</Description>
+              <LastState Value="208404480" RealAddress="2C269B4C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B4C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>677</ID>
               <Description>"Prj Pointer?"</Description>
+              <LastState Value="209735680" RealAddress="2C269B50"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B50</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>678</ID>
               <Description>"FAC Texture Pointer?"</Description>
+              <LastState Value="209747968" RealAddress="2C269B54"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B54</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>679</ID>
               <Description>"Receiving Attack Pointer"</Description>
+              <LastState Value="0" RealAddress="2C269B8C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B8C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>680</ID>
               <Description>"Hitbox Choice Pointer"</Description>
+              <LastState Value="209410320" RealAddress="2C269B90"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269B90</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>681</ID>
               <Description>"Enemy Pointer"</Description>
+              <LastState Value="2351335652" RealAddress="2C269BDC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C269BDC</Address>
             </CheatEntry>
@@ -3332,48 +3762,56 @@
             <CheatEntry>
               <ID>683</ID>
               <Description>"Sprite Scale X"</Description>
+              <LastState Value="1" RealAddress="2C269A20"/>
               <VariableType>Float</VariableType>
               <Address>2C269A20</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>684</ID>
               <Description>"Sprite Scale Y"</Description>
+              <LastState Value="1" RealAddress="2C269A24"/>
               <VariableType>Float</VariableType>
               <Address>2C269A24</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>685</ID>
               <Description>"Sprite Scale Z"</Description>
+              <LastState Value="1" RealAddress="2C269A28"/>
               <VariableType>Float</VariableType>
               <Address>2C269A28</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>686</ID>
               <Description>"Hitbox Scaling X"</Description>
+              <LastState Value="1.666666985" RealAddress="2C269ABC"/>
               <VariableType>Float</VariableType>
               <Address>2C269ABC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>687</ID>
               <Description>"Hitbox Scaling Y"</Description>
+              <LastState Value="2.142857552" RealAddress="2C269AC0"/>
               <VariableType>Float</VariableType>
               <Address>2C269AC0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>688</ID>
               <Description>"Overall Scaling X"</Description>
+              <LastState Value="1" RealAddress="2C269C54"/>
               <VariableType>Float</VariableType>
               <Address>2C269C54</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>689</ID>
               <Description>"Overall Scaling Y"</Description>
+              <LastState Value="1" RealAddress="2C269C58"/>
               <VariableType>Float</VariableType>
               <Address>2C269C58</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>690</ID>
               <Description>"Overall Scaling Z"</Description>
+              <LastState Value="1" RealAddress="2C269C5C"/>
               <VariableType>Float</VariableType>
               <Address>2C269C5C</Address>
             </CheatEntry>
@@ -3398,48 +3836,56 @@
             <CheatEntry>
               <ID>693</ID>
               <Description>"Receiving Damage Animation State"</Description>
+              <LastState Value="0" RealAddress="2C269F79"/>
               <VariableType>Byte</VariableType>
               <Address>2C269F79</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>694</ID>
               <Description>"Special Move Animation State"</Description>
+              <LastState Value="0" RealAddress="2C269F7A"/>
               <VariableType>Byte</VariableType>
               <Address>2C269F7A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>695</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="0" RealAddress="2C26A084"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A084</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>696</ID>
               <Description>"Animation Cycle Frame Timer"</Description>
+              <LastState Value="1" RealAddress="2C26A0B6"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A0B6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>697</ID>
               <Description>"Sprite ID"</Description>
+              <LastState Value="81" RealAddress="2C26A0B8"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A0B8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>698</ID>
               <Description>"Animation Pause Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A114"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A114</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>699</ID>
               <Description>"Animation State"</Description>
+              <LastState Value="0" RealAddress="2C26A144"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A144</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>700</ID>
               <Description>"Is Facing Right"</Description>
+              <LastState Value="0" RealAddress="2C26A146"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A146</Address>
             </CheatEntry>
@@ -3455,72 +3901,84 @@
             <CheatEntry>
               <ID>702</ID>
               <Description>"Normal Attack Held Direction"</Description>
+              <LastState Value="0" RealAddress="2C269F96"/>
               <VariableType>Byte</VariableType>
               <Address>2C269F96</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>703</ID>
               <Description>"Jumping Special Move Limiter"</Description>
+              <LastState Value="0" RealAddress="2C26A148"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A148</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>704</ID>
               <Description>"Air Dash Count"</Description>
+              <LastState Value="0" RealAddress="2C26A149"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A149</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>705</ID>
               <Description>"Normal Jumping Actions Counter"</Description>
+              <LastState Value="0" RealAddress="2C26A14A"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A14A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>706</ID>
               <Description>"Multiple Jumps Counter"</Description>
+              <LastState Value="0" RealAddress="2C26A14D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A14D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>707</ID>
               <Description>"Normal Move Light/Medium/Heavy"</Description>
+              <LastState Value="0" RealAddress="2C26A15C"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A15C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>708</ID>
               <Description>"Current Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C26A15D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A15D</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>709</ID>
               <Description>"Special Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A166"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A166</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>710</ID>
               <Description>"Attack Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A167"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A167</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>711</ID>
               <Description>"Has Been Thrown Count"</Description>
+              <LastState Value="0" RealAddress="2C26A1AE"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A1AE</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>712</ID>
               <Description>"DHC Special Move ID"</Description>
+              <LastState Value="0" RealAddress="2C26A1CC"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A1CC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>713</ID>
               <Description>"Assist ID"</Description>
+              <LastState Value="1" RealAddress="2C26A43D"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A43D</Address>
             </CheatEntry>
@@ -3536,36 +3994,42 @@
             <CheatEntry>
               <ID>715</ID>
               <Description>"Flight Timer (Sentinel)"</Description>
+              <LastState Value="0" RealAddress="2C26A218"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A218</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>716</ID>
               <Description>"Flight Timer (Iron Man/War Machine)"</Description>
+              <LastState Value="0" RealAddress="2C26A21C"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A21C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>717</ID>
               <Description>"Flight Timer (Magneto)"</Description>
+              <LastState Value="0" RealAddress="2C26A21E"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A21E</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>718</ID>
               <Description>"Flight Timer (Dhalsim)"</Description>
+              <LastState Value="0" RealAddress="2C26A220"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A220</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>719</ID>
               <Description>"Flight Timer (Doctor Doom/M. Bison)"</Description>
+              <LastState Value="0" RealAddress="2C26A222"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A222</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>720</ID>
               <Description>"Flight Timer (Storm)"</Description>
+              <LastState Value="0" RealAddress="2C26A228"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A228</Address>
             </CheatEntry>
@@ -3581,36 +4045,42 @@
             <CheatEntry>
               <ID>722</ID>
               <Description>"Dizzy Stun Counter"</Description>
+              <LastState Value="80" RealAddress="2C26A155"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A155</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>723</ID>
               <Description>"Dizzy Stun Reset Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A156"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A156</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>724</ID>
               <Description>"Throw Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A15F"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A15F</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>725</ID>
               <Description>"Attack Immune Frame Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A161"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A161</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>726</ID>
               <Description>"Character Health"</Description>
+              <LastState Value="144" RealAddress="2C26A394"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A394</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>727</ID>
               <Description>"Character Red Health"</Description>
+              <LastState Value="144" RealAddress="2C26A398"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A398</Address>
             </CheatEntry>
@@ -3626,42 +4096,49 @@
             <CheatEntry>
               <ID>729</ID>
               <Description>"Is Active"</Description>
+              <LastState Value="0" RealAddress="2C269F74"/>
               <VariableType>Byte</VariableType>
               <Address>2C269F74</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>730</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="56" RealAddress="2C269F75"/>
               <VariableType>Byte</VariableType>
               <Address>2C269F75</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>731</ID>
               <Description>"Flying Screen Focus"</Description>
+              <LastState Value="0" RealAddress="2C26A1A9"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A1A9</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>732</ID>
               <Description>"Distance From Enemy"</Description>
+              <LastState Value="0" RealAddress="2C26A20C"/>
               <VariableType>Float</VariableType>
               <Address>2C26A20C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>733</ID>
               <Description>"CPU Control"</Description>
+              <LastState Value="0" RealAddress="2C26A499"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A499</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>734</ID>
               <Description>"Character ID"</Description>
+              <LastState Value="56" RealAddress="2C26A4A0"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A4A0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>735</ID>
               <Description>"Palette ID"</Description>
+              <LastState Value="1" RealAddress="2C26A4A1"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A4A1</Address>
             </CheatEntry>
@@ -3677,12 +4154,14 @@
             <CheatEntry>
               <ID>737</ID>
               <Description>"Camera Bounds Break Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A168"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A168</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>738</ID>
               <Description>"Snapout Character Disable Timer"</Description>
+              <LastState Value="0" RealAddress="2C26A214"/>
               <VariableType>2 Bytes</VariableType>
               <Address>2C26A214</Address>
             </CheatEntry>
@@ -3698,42 +4177,49 @@
             <CheatEntry>
               <ID>740</ID>
               <Description>"Speed Up"</Description>
+              <LastState Value="0" RealAddress="2C26A174"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A174</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>741</ID>
               <Description>"Flight"</Description>
+              <LastState Value="0" RealAddress="2C26A175"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A175</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>742</ID>
               <Description>"Hyper Armor"</Description>
+              <LastState Value="0" RealAddress="2C26A176"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A176</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>743</ID>
               <Description>"Idle Hover Animation"</Description>
+              <LastState Value="0" RealAddress="2C26A177"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A177</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>744</ID>
               <Description>"Damage Modifier"</Description>
+              <LastState Value="0" RealAddress="2C26A179"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A179</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>745</ID>
               <Description>"Defense Modifier"</Description>
+              <LastState Value="0" RealAddress="2C26A17A"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A17A</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>746</ID>
               <Description>"Landing Screen Shake Effect Intensity"</Description>
+              <LastState Value="3" RealAddress="2C26A17B"/>
               <VariableType>Byte</VariableType>
               <Address>2C26A17B</Address>
             </CheatEntry>
@@ -3749,24 +4235,28 @@
             <CheatEntry>
               <ID>748</ID>
               <Description>"Velocity X"</Description>
+              <LastState Value="0" RealAddress="2C269FD0"/>
               <VariableType>Float</VariableType>
               <Address>2C269FD0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>749</ID>
               <Description>"Velocity Y"</Description>
+              <LastState Value="0" RealAddress="2C269FD4"/>
               <VariableType>Float</VariableType>
               <Address>2C269FD4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>750</ID>
               <Description>"Gravity X"</Description>
+              <LastState Value="0" RealAddress="2C269FDC"/>
               <VariableType>Float</VariableType>
               <Address>2C269FDC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>751</ID>
               <Description>"Gravity Y"</Description>
+              <LastState Value="0" RealAddress="2C269FE0"/>
               <VariableType>Float</VariableType>
               <Address>2C269FE0</Address>
             </CheatEntry>
@@ -3782,24 +4272,28 @@
             <CheatEntry>
               <ID>753</ID>
               <Description>"Arena Position X"</Description>
+              <LastState Value="213.3333282" RealAddress="2C269FA8"/>
               <VariableType>Float</VariableType>
               <Address>2C269FA8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>754</ID>
               <Description>"Arena Position Y"</Description>
+              <LastState Value="0" RealAddress="2C269FAC"/>
               <VariableType>Float</VariableType>
               <Address>2C269FAC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>755</ID>
               <Description>"Screen Position X"</Description>
+              <LastState Value="0" RealAddress="2C26A054"/>
               <VariableType>Float</VariableType>
               <Address>2C26A054</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>756</ID>
               <Description>"Screen Position Y"</Description>
+              <LastState Value="0" RealAddress="2C26A058"/>
               <VariableType>Float</VariableType>
               <Address>2C26A058</Address>
             </CheatEntry>
@@ -3815,90 +4309,105 @@
             <CheatEntry>
               <ID>758</ID>
               <Description>"Sprite Pointer"</Description>
+              <LastState Value="213513032" RealAddress="2C26A0C8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0C8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>759</ID>
               <Description>"DatGFX1 Pointer?"</Description>
+              <LastState Value="212533312" RealAddress="2C26A0D0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0D0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>760</ID>
               <Description>"DatGFX2 Pointer?"</Description>
+              <LastState Value="213350560" RealAddress="2C26A0D4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0D4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>761</ID>
               <Description>"DatPal Pointer?"</Description>
+              <LastState Value="213443456" RealAddress="2C26A0D8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0D8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>762</ID>
               <Description>"Animations Pointer?"</Description>
+              <LastState Value="213511328" RealAddress="2C26A0DC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0DC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>763</ID>
               <Description>"Hitbox Pattern Table Pointer?"</Description>
+              <LastState Value="213539040" RealAddress="2C26A0E0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0E0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>764</ID>
               <Description>"Hitbox Table Pointer"</Description>
+              <LastState Value="213540960" RealAddress="2C26A0E4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0E4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>765</ID>
               <Description>"Attack Data Pointer?"</Description>
+              <LastState Value="213543008" RealAddress="2C26A0E8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0E8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>766</ID>
               <Description>"Projectile/Extras Pointer?"</Description>
+              <LastState Value="213445792" RealAddress="2C26A0EC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0EC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>767</ID>
               <Description>"DatFPNT Pointer?"</Description>
+              <LastState Value="212533248" RealAddress="2C26A0F0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0F0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>768</ID>
               <Description>"Prj Pointer?"</Description>
+              <LastState Value="213864448" RealAddress="2C26A0F4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0F4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>769</ID>
               <Description>"FAC Texture Pointer?"</Description>
+              <LastState Value="213876736" RealAddress="2C26A0F8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A0F8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>770</ID>
               <Description>"Receiving Attack Pointer"</Description>
+              <LastState Value="0" RealAddress="2C26A130"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A130</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>771</ID>
               <Description>"Hitbox Choice Pointer"</Description>
+              <LastState Value="213539056" RealAddress="2C26A134"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A134</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>772</ID>
               <Description>"Enemy Pointer"</Description>
+              <LastState Value="2351334208" RealAddress="2C26A180"/>
               <VariableType>4 Bytes</VariableType>
               <Address>2C26A180</Address>
             </CheatEntry>
@@ -3914,48 +4423,56 @@
             <CheatEntry>
               <ID>774</ID>
               <Description>"Sprite Scale X"</Description>
+              <LastState Value="1" RealAddress="2C269FC4"/>
               <VariableType>Float</VariableType>
               <Address>2C269FC4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>775</ID>
               <Description>"Sprite Scale Y"</Description>
+              <LastState Value="1" RealAddress="2C269FC8"/>
               <VariableType>Float</VariableType>
               <Address>2C269FC8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>776</ID>
               <Description>"Sprite Scale Z"</Description>
+              <LastState Value="1" RealAddress="2C269FCC"/>
               <VariableType>Float</VariableType>
               <Address>2C269FCC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>777</ID>
               <Description>"Hitbox Scaling X"</Description>
+              <LastState Value="1.666666627" RealAddress="2C26A060"/>
               <VariableType>Float</VariableType>
               <Address>2C26A060</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>778</ID>
               <Description>"Hitbox Scaling Y"</Description>
+              <LastState Value="2.142857075" RealAddress="2C26A064"/>
               <VariableType>Float</VariableType>
               <Address>2C26A064</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>779</ID>
               <Description>"Overall Scaling X"</Description>
+              <LastState Value="1" RealAddress="2C26A1F8"/>
               <VariableType>Float</VariableType>
               <Address>2C26A1F8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>780</ID>
               <Description>"Overall Scaling Y"</Description>
+              <LastState Value="1" RealAddress="2C26A1FC"/>
               <VariableType>Float</VariableType>
               <Address>2C26A1FC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>781</ID>
               <Description>"Overall Scaling Z"</Description>
+              <LastState Value="1" RealAddress="2C26A200"/>
               <VariableType>Float</VariableType>
               <Address>2C26A200</Address>
             </CheatEntry>
@@ -3999,15 +4516,15 @@
     </SymbolEntry>
     <SymbolEntry>
       <Name>emuinputaaflag</Name>
-      <Address>0D350000</Address>
+      <Address>10950000</Address>
     </SymbolEntry>
   </UserdefinedSymbols>
-  <LuaScript>-- Marvel vs Capcom 2 REAL TIME Hitbox Viewer Overlay Lua Script
+  <LuaScript>-- Marvel vs Capcom 2 Cheat Engine Trainer Script
 -- By Lord_Yoshi
 -- Created some time in 2020
 -- Used Cheat Engine 6.4, Demul 0.7 alpha 310715, and Marvel vs. Capcom 2 (USA) initially
 -- Now switched to Cheat Engine 7.1, Demul 0.7 alpha 111117, and Marvel vs. Capcom 2 (USA)
--- Script version 1.0, Initial Release
+-- Script version 1.01, Initial Release
 -- Features include frame stepping, hitbox overlay, macro recording and playback, input log with frame counts, and many documented addresses
 -- Feel free to do whatever you want with this script, but trying to sell it or claiming you created it would be rude.
 
@@ -4054,8 +4571,10 @@
 -- P1: UP-W, DOWN-S, LEFT-A, RIGHT-D, A-V, B-B, X-Z, Y-X, LTRIG-C, RTRIG-N, START-M
 -- P2: UP-T, DOWN-G, LEFT-F, RIGHT-H, A-J, B-K, X-U, Y-I, LTRIG-O, RTRIG-L, START-P
 -- Once all preferred Demul settings are changed, run Cheat Engine
--- Using Cheat Engine, attach it to the Demul process, then load the Hitbox Overlay cheat table (*.ct)
--- Run this script if prompted to, you should see the hitbox overlay and input log appear on the screen after a few seconds
+-- Using Cheat Engine, attach it to the Demul process, then load the Trainer Script cheat table (*.ct)
+-- Run this lua script if prompted to, otherwise go to Table&gt;Show Cheat Table Lua Script and click Execute Script
+-- You should see the hitbox overlay and input log appear on the screen after a few seconds
+-- If the buttons do not completely appear, the D3DHook has bugged out, so reload both Demul and CE and try again
 -- Enjoy!
 
 
@@ -4134,7 +4653,7 @@ kInjectCode = [[
 	label(counterreturn)
 	label(counterskipfunc)
 
-	aobScan(inputinjectpoint,6A 40 59 F3 A5 5F 33 C0 5E EB 05 B8 1E 00 07 80)
+	aobScan(inputinjectpoint,6A 40 59 F3 A5 5F)
 	globalalloc(emuinputaaflag,4) //Use WriteInteger to set flag
 	label(inputcode)
 	label(inputreturn)
