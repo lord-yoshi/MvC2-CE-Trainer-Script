@@ -96,3 +96,5 @@ Download the .ct file here: <a href="https://raw.githubusercontent.com/lord-yosh
 -- If the buttons do not completely appear, the D3DHook has bugged out, so reload both Demul and CE and try again
 
 -- Enjoy!
+
+ <img src="https://raw.githubusercontent.com/lord-yoshi/MvC2-CE-Trainer-Script/master/Console%20Instructions.jpg" alt="Console Instructions"> 
