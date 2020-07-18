@@ -13,8 +13,6 @@ Download the .ct file here: <a href="https://raw.githubusercontent.com/lord-yosh
 
 -- Now switched to Cheat Engine 7.1, Demul 0.7 alpha 111117, and Marvel vs. Capcom 2 (USA)
 
--- Script version 1.01, Initial Release
-
 -- Features include frame stepping, hitbox overlay, macro recording and playback, input log with frame counts, and many documented addresses
 
 -- Feel free to do whatever you want with this script, but trying to sell it or claiming you created it would be rude.
