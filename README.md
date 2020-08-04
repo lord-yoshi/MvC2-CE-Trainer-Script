@@ -83,7 +83,7 @@ Download the .ct file here: <a href="https://raw.githubusercontent.com/lord-yosh
 
 -- P2: UP-T, DOWN-G, LEFT-F, RIGHT-H, A-J, B-K, X-U, Y-I, LTRIG-O, RTRIG-L, START-P
 
--- Once all preferred Demul settings are changed, run Cheat Engine
+-- Once all preferred Demul settings are changed, start Marvel vs Capcom 2 and run Cheat Engine
 
 -- Using Cheat Engine, attach it to the Demul process (Click the monitor icon, then double click on the demul process), then load the Trainer Script cheat table (*.ct)
 
