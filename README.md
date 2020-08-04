@@ -85,7 +85,7 @@ Download the .ct file here: <a href="https://raw.githubusercontent.com/lord-yosh
 
 -- Once all preferred Demul settings are changed, run Cheat Engine
 
--- Using Cheat Engine, attach it to the Demul process, then load the Trainer Script cheat table (*.ct)
+-- Using Cheat Engine, attach it to the Demul process (Click the monitor icon, then double click on the demul process), then load the Trainer Script cheat table (*.ct)
 
 -- Run this lua script if prompted to, otherwise go to Table>Show Cheat Table Lua Script and click Execute Script
 
